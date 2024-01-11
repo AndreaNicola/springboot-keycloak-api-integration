@@ -162,19 +162,24 @@ clients:
 
 ### Add the spring-addons-starter-oidc dependency
 
-If you are using Maven, add the following dependency to your pom.xml:
+If you are using Maven, add the following dependencies to your pom.xml:
 
 ```xml
-
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
-</dependency>
-<dependency>
-<groupId>com.c4-soft.springaddons</groupId>
-<artifactId>spring-addons-starter-oidc</artifactId>
-<version>7.1.3</version>
-</dependency>
+<dependencies>
+    
+    ...
+    
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+    </dependency>
+    <dependency>
+    <groupId>com.c4-soft.springaddons</groupId>
+    <artifactId>spring-addons-starter-oidc</artifactId>
+    <version>7.1.3</version>
+    </dependency>
+    
+</dependencies>
 ```
 
 If you are using Gradle, add the following dependency to your build.gradle:
