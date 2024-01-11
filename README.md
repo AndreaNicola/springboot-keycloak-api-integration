@@ -117,12 +117,12 @@ Once the user is created, a page with its details will be displayed:
 
 ![Keycloak Create User](readme_images/user-details.webp)
 
-We can now go to the Credentials tab. We’ll be setting the initial password to user1pwd. We’ll also disable the
+We can now go to the Credentials tab. We’ll be setting the initial password to _user1pwd_. We’ll also disable the
 Temporary option!
 
 ![Keycloak Create User](readme_images/user-pass-768x227.webp)
 
-Finally, we’ll navigate to the Role Mappings tab. We’ll be assigning the profile1 role to our user1.
+Finally, we’ll navigate to the Role Mappings tab. We’ll assign the profile1 role to our user1.
 
 #### Create a 2nd user
 
